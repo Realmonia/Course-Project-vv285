@@ -1,0 +1,677 @@
+This is XeTeX, Version 3.1415926-2.5-0.9999.3 (MiKTeX 2.9 64-bit) (preloaded format=xelatex 2014.11.12)  30 JUL 2015 02:34
+entering extended mode
+**Vv285_Project.tex
+("E:\Courseware and homework\VV285\Homework Latex\Vv285_Project.tex"
+LaTeX2e <2014/05/01>
+Babel <3.9l> and hyphenation patterns for 68 languages loaded.
+("D:\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("D:\MiKTeX 2.9\tex\latex\base\size10.clo"
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("D:\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+("D:\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("D:\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks14
+\ex@=\dimen103
+))
+("D:\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen104
+)
+("D:\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count88
+LaTeX Info: Redefining \frac on input line 210.
+\uproot@=\count89
+\leftroot@=\count90
+LaTeX Info: Redefining \overline on input line 306.
+\classnum@=\count91
+\DOTSCASE@=\count92
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen105
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
+\macc@depth=\count93
+\c@MaxMatrixCols=\count94
+\dotsspace@=\muskip10
+\c@parentequation=\count95
+\dspbrk@lvl=\count96
+\tag@help=\toks15
+\row@=\count97
+\column@=\count98
+\maxfields@=\count99
+\andhelp@=\toks16
+\eqnshift@=\dimen106
+\alignsep@=\dimen107
+\tagshift@=\dimen108
+\tagwidth@=\dimen109
+\totwidth@=\dimen110
+\lineht@=\dimen111
+\@envbody=\toks17
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks18
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
+)
+("D:\MiKTeX 2.9\tex\latex\jknappen\mathrsfs.sty"
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup4
+)
+("D:\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("D:\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("D:\MiKTeX 2.9\tex\latex\gauss\gauss.sty"
+Package: gauss 2003/01/14
+\g@trash=\box28
+\g@matrixbox=\box29
+\g@eastbox=\box30
+\g@northbox=\box31
+\g@label=\box32
+\g@b@tmp=\box33
+\g@b@tmpa=\box34
+\g@b@tmpb=\box35
+\g@maxrow=\count100
+\g@maxcol=\count101
+\g@maxrow@old=\count102
+\g@maxcol@old=\count103
+\g@c@tmp=\count104
+\g@c@tmpa=\count105
+\g@axisHeight=\dimen112
+\g@linethickness=\dimen113
+\g@tab=\dimen114
+\g@arrowht=\dimen115
+\g@arrowwd=\dimen116
+\g@d@tmp=\dimen117
+\g@d@tmpa=\dimen118
+\g@d@tmpb=\dimen119
+\g@d@tmpc=\dimen120
+\g@d@tmpd=\dimen121
+\g@d@tmpe=\dimen122
+\g@loopCount=\count106
+\g@loopEnd=\count107
+\g@loopStep=\count108
+\colarrowsep=\dimen123
+\rowarrowsep=\dimen124
+\opskip=\dimen125
+\labelskip=\dimen126
+\colopminsize=\dimen127
+\rowopminsize=\dimen128
+)
+("D:\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("D:\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
+)
+("D:\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+("D:\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("D:\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count109
+\Gm@cntv=\count110
+\c@Gm@tempcnt=\count111
+\Gm@bindingoffset=\dimen129
+\Gm@wd@mp=\dimen130
+\Gm@odd@mp=\dimen131
+\Gm@even@mp=\dimen132
+\Gm@layoutwidth=\dimen133
+\Gm@layoutheight=\dimen134
+\Gm@layouthoffset=\dimen135
+\Gm@layoutvoffset=\dimen136
+\Gm@dimlist=\toks20
+
+("D:\MiKTeX 2.9\tex\xelatex\xetexconfig\geometry.cfg"))
+("D:\MiKTeX 2.9\tex\latex\dstroke\dsfont.sty"
+Package: dsfont 1995/08/01 v0.1 Double stroke roman fonts
+)
+("D:\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks21
+\thm@bodyfont=\toks22
+\thm@headfont=\toks23
+\thm@notefont=\toks24
+\thm@headpunct=\toks25
+\thm@preskip=\skip46
+\thm@postskip=\skip47
+\thm@headsep=\skip48
+\dth@everypar=\toks26
+)
+("D:\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("D:\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("D:\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("D:\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: xetex.def on input line 91.
+
+("D:\MiKTeX 2.9\tex\xelatex\xetex-def\xetex.def"
+File: xetex.def 2015/03/25 v4.04 LaTeX color/graphics driver for XeTeX (TeX Liv
+e/RRM/JK)
+))
+\Gin@req@height=\dimen137
+\Gin@req@width=\dimen138
+)
+("D:\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen139
+)
+("D:\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("D:\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+)
+("D:\MiKTeX 2.9\tex\latex\bbm\bbm.sty"
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+("D:\MiKTeX 2.9\tex\latex\wasysym\wasysym.sty"
+Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
+\symwasy=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
+)
+("D:\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip49
+\f@ncyO@elh=\skip50
+\f@ncyO@erh=\skip51
+\f@ncyO@olh=\skip52
+\f@ncyO@orh=\skip53
+\f@ncyO@elf=\skip54
+\f@ncyO@erf=\skip55
+\f@ncyO@olf=\skip56
+\f@ncyO@orf=\skip57
+)
+("D:\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+("E:\Courseware and homework\VV285\Homework Latex\Vv285_Project.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 27.
+
+("D:\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 27.
+
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(90.3375pt, 433.62001pt, 90.3375pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.62001pt
+* \textheight=650.43001pt
+* \oddsidemargin=18.0675pt
+* \evensidemargin=18.0675pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+File: logo_1.jpg Graphic file (type QTm)
+<use  "logo_1.jpg" >
+Requested font "cmcsc10" at 10.0pt
+Requested font "cmcsc10" at 24.88pt
+Requested font "cmcsc10" at 20.74pt
+Requested font "cmr17" at 20.74pt
+Requested font "cmbx12" at 20.74pt
+Requested font "cmr12" at 14.4pt
+Requested font "cmti12" at 14.4pt
+Requested font "cmr12" at 12.0pt
+ [1
+
+]
+Requested font "cmbx12" at 14.4pt
+ [1]
+("E:\Courseware and homework\VV285\Homework Latex\Vv285_Project.toc"
+Requested font "cmbx10" at 10.0pt
+Requested font "cmex7" at 7.0pt
+Requested font "cmex7" at 5.0pt
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 2.
+
+("D:\MiKTeX 2.9\tex\latex\jknappen\ursfs.fd"
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+)
+Requested font "rsfs10" at 10.0pt
+Requested font "rsfs7" at 7.0pt
+Requested font "rsfs5" at 5.0pt
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+("D:\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+Requested font "msam10" at 10.0pt
+Requested font "msam7" at 7.0pt
+Requested font "msam5" at 5.0pt
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+("D:\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Requested font "msbm10" at 10.0pt
+Requested font "msbm7" at 7.0pt
+Requested font "msbm5" at 5.0pt
+LaTeX Font Info:    Try loading font information for U+wasy on input line 2.
+
+("D:\MiKTeX 2.9\tex\latex\wasysym\uwasy.fd"
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+Requested font "wasy10" at 10.0pt
+Requested font "wasy7" at 7.0pt
+Requested font "wasy5" at 5.0pt
+)
+\tf@toc=\write3
+ [2]
+Requested font "cmbx12" at 12.0pt
+File: rainbow.jpg Graphic file (type QTm)
+ <use  "rainbow.jpg" >
+Underfull \hbox (badness 10000) in paragraph at lines 62--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--76
+
+ []
+
+[3]
+File: snell.png Graphic file (type QTm)
+ <use  "snell.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 78--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+[4]
+File: reflection.png Graphic file (type QTm)
+ <use  "reflection.png" > [5]
+File: 2_1.png Graphic file (type QTm)
+ <use  "2_1.png" > [6]
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
+
+ []
+
+Missing character: There is no ’ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--140
+
+ []
+
+[7]
+File: 2_3.png Graphic file (type QTm)
+ <use  "2_3.png" >
+File: 2_4.png Graphic file (type QTm)
+ <use  "2_4.png" > [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 174--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--195
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 174--195
+
+ []
+
+[10]
+File: 2_5.png Graphic file (type QTm)
+ <use  "2_5.png" > [11]
+Underfull \hbox (badness 10000) in paragraph at lines 212--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--224
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 212--224
+
+ []
+
+[12]
+Missing character: There is no 　 in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--245
+
+ []
+
+File: 8.png Graphic file (type QTm)
+<use  "8.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 252--260
+
+ []
+
+[13] [14]
+File: 4.png Graphic file (type QTm)
+ <use  "4.png" >
+Underfull \hbox (badness 10000) in paragraph at lines 283--292
+
+ []
+
+[15]
+File: 5.png Graphic file (type QTm)
+ <use  "5.png" >
+File: 6.png Graphic file (type QTm)
+ <use  "6.png" > [16]
+File: Figure1.eps Graphic file (type eps)
+ <Figure1.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 320--332
+
+ []
+
+[17]
+File: Figure2.eps Graphic file (type eps)
+ <Figure2.eps>
+File: Figure3.eps Graphic file (type eps)
+ <Figure3.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 359--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--377
+
+ []
+
+[18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 382--385
+
+ []
+
+File: Figure4.eps Graphic file (type eps)
+<Figure4.eps> [20]
+File: Figure5.eps Graphic file (type eps)
+ <Figure5.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 397--407
+
+ []
+
+File: Figure6.eps Graphic file (type eps)
+<Figure6.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 416--429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--429
+
+ []
+
+[21] [22]
+File: Figure7.eps Graphic file (type eps)
+ <Figure7.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 462--466
+
+ []
+
+[23]
+Missing character: There is no ’ in font cmr10!
+File: 7.png Graphic file (type QTm)
+ <use  "7.png" >
+Missing character: There is no ’ in font cmr10!
+Missing character: There is no ’ in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--481
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--481
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 467--481
+
+ []
+
+[24]
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+Missing character: There is no “ in font cmr10!
+Missing character: There is no ” in font cmr10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--490
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 483--490
+
+ []
+
+[25]
+Requested font "cmti10" at 10.0pt
+
+Overfull \hbox (51.10327pt too wide) in paragraph at lines 504--505
+[]\OT1/cmr/m/n/10 M. Abramowitz et al. Re-frac-tion of Light. http://micro.magn
+et.fsu.edu/optics/lightandcolor/refraction.html,
+ []
+
+Missing character: There is no — in font cmr10!
+Missing character: There is no — in font cmr10!
+[26] ("E:\Courseware and homework\VV285\Homework Latex\Vv285_Project.aux") ) 
+Here is how much of TeX's memory you used:
+ 3074 strings out of 428790
+ 36484 string characters out of 3167181
+ 100757 words of memory out of 3000000
+ 6318 multiletter control sequences out of 15000+200000
+ 10195 words of font info for 40 fonts, out of 3000000 for 9000
+ 1096 hyphenation exceptions out of 8191
+ 27i,11n,43p,673b,316s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on Vv285_Project.pdf (27 pages).

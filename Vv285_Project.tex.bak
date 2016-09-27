@@ -1,0 +1,153 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{gauss}
+\usepackage[top=1in,bottom=1in,left=1.25in,right=1.25in]{geometry}
+\usepackage{dsfont}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{multirow}
+\usepackage{textcomp}
+\usepackage{bbm}
+\usepackage{wasysym}
+\usepackage{fancyhdr}
+\usepackage{indentfirst}
+\usepackage{setspace}
+\pagestyle{fancy}
+\lhead{Instructor: Prof. Hohberger}
+\chead{Vv285 Project : Rainbow}
+\rhead{SJTU-UM Joint Institute}
+\lfoot{}
+\cfoot{\thepage}
+\rfoot{}
+
+
+
+\begin{document}
+%\bibliographystyle{plain}
+%\bibliography{reference.bib}
+\begin{titlepage}
+\begin{center}
+\includegraphics{logo_1.jpg}\\[1.5cm]
+
+\textsc{\Huge  Vv285 Honors Mathematics III}\\[2cm]
+
+\textsc{\huge  Term Project}\\[1.5cm]
+
+{\huge \bfseries R A I N B O W S}\\[2cm]
+
+\Large \emph{Instructor:}\\
+Dr. Horst Hohberger\\[2cm]
+
+\Large \emph{Author:}\\
+Li Chunchao	5143709188\\
+Jiang Zhang	5143709201\\
+Zuo Jiaqi	5143709174\\
+Shen Yue	5143709045\\
+Han Heming	5143709133
+
+\vfill
+{\large \today}
+\end{center}
+\end{titlepage}
+\begin{spacing}{1.5}
+\section*{Abstract}
+\indent This project focuses on the mathematical interpretation and properties of rainbows. First, we do some research on rainbow, combine the knowledge of rainbow together with life experience. Then we use the knowledge from geometry and calculus, we carry out this project to build up a model to describe the rainbow phenomona. Then we use our model to simulate and predict the rainbow.
+\newpage
+\tableofcontents
+\newpage
+\section{Introduction}
+Sunshine passes through the spherical water drop in the air after a series of refraction and reflection will create rainbow. Traditionally, the rainbow's colors are described as red, orange, yellow, green, blue, indigo and violet. In fact, our eyes can discern many more individual hues. Sometimes we can observe secondary rainbow, but less often. Higher order rainbow is even rarer. In this project, we will analyze the formation and property of the rainbow.
+\section{Basic Task}
+In this section, we will use basic knowledge of geometry and calculus, as well as common sense of rainbow to solve these questions.
+\subsection{Angle of Deviation}
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=8cm]{2_1.png}
+\caption{Formation of the Primary Rainbow. Figure taken from \cite{Calculus}}
+\end{figure}
+From the picture, we know that
+\begin{align*}
+\angle AOC& = 2\angle ABC = 4\beta\\
+\angle OAC& =\angle OCA = \frac{1}{2}(\pi - \angle AOC)=\frac{\pi}{2}-2\beta\\
+\angle PAO& = \angle PCO = \alpha
+\end{align*}
+\indent Then, $$\angle PAC=\angle PAO + \angle OAC=\frac{\pi}{2}-2\beta+\alpha$$
+$$\angle PCA=\angle PCO +\angle OCA = \frac{\pi}{2}-2\beta +\alpha$$
+$$D(\alpha)=\angle PAC + \angle PCA =\pi + 2\alpha -4\beta$$
+\subsection{Rainbow Appears Arched}
+According to the Snell's law, $n_1\sin\alpha = n_2\sin\beta$, where $n_1, \ n_2$ are refractive index. As the light travels from vacuum to the spherical water droplet, we can set $n_1=1, \ n_2=n$, where $n$ is a constant. Hence we can get
+\begin{align*}
+D(\alpha)&=\pi+ 2\alpha -4\beta =\pi +2\alpha - 4\arcsin(\frac{\sin\alpha}{n})\\
+D'(\alpha) &= 2 - 4\frac{1}{\sqrt{1-\frac{\sin^2\alpha}{n^2}}}\frac{\cos \alpha}{n}=2-\frac{4\cos \alpha}{\sqrt{n^2-\sin^2\alpha}}
+\end{align*}
+\indent Assume $D'(\alpha)=0$, then we have \begin{align*}\alpha_0=\arccos\sqrt{\frac{n^2-1}{3}}\end{align*}
+\indent And $\delta_0=D(\alpha_0)=\pi+2\arccos\sqrt{\frac{n^2-1}{3}}-4\arcsin\sqrt{\frac{4}{3n^2}-\frac{1}{3}}$\\
+\indent By the data on the Internet, $n=\frac{4}{3}$. Plug $n$ into the formula above, we get $\alpha_0 \approx 59.4^{\circ}$, $\delta_0\approx 138^{\circ}$ and the rainbow angle is $180^{\circ}-138^{\circ}=42^{\circ}$.\\
+\indent Now we will discuss why a rainbow appears as an arc.\\
+\indent Rainbow is formed by sunshine passing through the spherical water drop in the air after a series of refraction and reflection. The angles of incidence are different; rays of light after reflection are on different direction. The intensity of light reaches the highest point at some specific angle (about 42$^{\circ}$). Only ray of light in this range gotten by human eyes, the rainbow is visible. As a result, if we take human eyes as a center, and draw an axis paralleled to the direction of the sunlight, then sunlight reaches one’s eyes in a same angle will form a complete circular conical surface about this axis. Hence a rainbow appears as an arc.
+\newpage
+\subsection{Colors and Positions}
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=8cm]{2_3.png}
+\caption{Formation of Different Colors}
+\end{figure}
+Rainbows span a continuous spectrum of colors. Any distinct bands perceived are an artefact of human color vision, and no banding of any type is seen in a black-and-white photo of a rainbow, only a smooth gradation of intensity to a maximum, then fading towards the other side. For colors seen by the human eye, the most commonly cited and remembered sequence is Newton's sevenfold red, orange, yellow, green, blue, indigo and violet.
+\subsection{Secondary Rainbow}
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=8cm]{2_4.png}
+\caption{Formation of the Secondary Rainbow. Figure taken from \cite{Calculus}}
+\end{figure}
+From the picture, it is easy to see that $\angle AOB =\angle BOC = \angle COD = \pi -2\beta$.\\
+\indent Hence, \begin{align*}
+\angle AOD = 2\pi -\angle AOB -\angle BOC -\angle COD = 2\pi -3(\pi -2\pi)=6\beta - \pi.
+\end{align*}
+\indent Thus,
+\begin{align*}
+\angle OAD &= \angle ODA = \frac{\pi - \angle AOD}{2} = \pi - 3\beta\\
+\angle PAD &= \pi - \angle OAD -\alpha = 3\beta -\alpha\\
+\angle PDA &= \pi - \angle ODA - \alpha = 3\beta -\alpha
+\end{align*}
+\indent So $D(\alpha)=2\pi - \angle PAD - \angle PDA = 2\pi  + 2\alpha - 6\beta$.\\
+Assume $\sin \alpha = n \sin \beta$ as we did in $ii)$, then \begin{align*}
+D(\alpha)&= 2\pi  + 2\alpha - 6\arcsin(\frac{\sin \alpha }{n})\\
+D'(\alpha)&= 2- 6\frac{1}{\sqrt{1-\frac{\sin^2\alpha}{n^2}}}\frac{\cos \alpha}{n}
+\end{align*}
+\indent Let $D'(\alpha)=0$, we can obtain $\alpha_0= \arccos \sqrt{\frac{n^2-1}{8}}$ and $\delta_0 = D(\alpha_0)=2\pi + 2\alpha_0 - 6 \arcsin(\frac{\sin \alpha_0}{n})$.
+\indent From $ii)$, $n= \frac{4}{3}$. Plug $n$ into the formula above, we obtain $\alpha_0 \approx 71.8^{\circ},  \ \delta_0 = 231^{\circ}$ so that the rainbow angle is $231^{\circ} -180^{\circ}=51^{\circ}$.\\
+
+Some of the light rays will be refracted during the first reflection. Some of the light rays will continue being reflected when they are refracted out of the droplets. Besides, its light is spread over its greater angular extent. \cite{Atoptics} Hence the intensity of the secondary rainbow is less than that of the primary rainbow.\\
+\indent The order of the colors is reversed comparing to the primary rainbow. Red light is refracted least and so its rays suffer the smallest deviation. But the total deviation is more than 180$^{\circ}$ and the least deviated rays appear at the inside of the bow. The secondary has $43\%$ of the total brightness of the primary \cite{Atoptics}\\
+\indent It is broader, $1.8\times d$, where d means the width of the primary. \cite{Atoptics}
+\subsection{Tertiary Rainbow}
+\begin{figure}[!htb]
+\centering
+\includegraphics[width=8cm]{2_5.png}
+\caption{Formation of the Tertiary Rainbow. Figure taken from}
+\end{figure}
+From the picture, we know that $\angle AOB=\angle BOC = \angle COD =\angle DOE = \pi -2 \beta$.\\
+Hence, $\angle AOE = 2\pi - \angle AOB -\angle BOC -\angle COD - \angle DOE=2\pi- 4(\pi - 2\beta)=8\beta - 2\pi$.\\
+Also, $\angle QEO = \pi -\alpha, \ \angle PAO =\pi -\alpha$. Then \begin{align*}
+D(\alpha)&=2\pi - \angle QEO -\angle PAO - \angle AOE +\pi = 3\pi + 2\alpha -8\beta\\
+D'(\alpha)&=2-8\frac{1}{\sqrt {1-\frac{\sin^2\alpha}{n^2}}}\frac{\cos \alpha}{n}
+\end{align*}
+Let $D'(\alpha)=0$, we can obtain $\alpha_0= \arccos \sqrt{\frac{n^2-1}{15}}$ and $\delta_0 = D(\alpha_0)=3\pi + 2\alpha_0 -  8\arcsin(\frac{\sin \alpha_0}{n})$.
+From $ii)$, $n= \frac{4}{3}$. Plug $n$ into the formula above, we obtain $\alpha _0\approx 76.8^{\circ}, \ \delta_0=318^{\circ}$ so that the rainbow angle is $360^{\circ} - 318^{\circ}=42^{\circ}$.
+Some of the light rays will be refracted during the second reflection. Some of the light rays will continue being reflected when they are refracted out of the droplets.\\
+\indent The order of the colors is the same as the primary rainbow. Red light is refracted least and so its rays suffer the smallest deviation and the total deviation of the red light in the tertiary rainbow is more than 180$^{\circ}$, which is the same as the secondary rainbow. However, unlike the secondary rainbow, the tertiary rainbow appears sunwards and centered on the sun. \cite{Atoptics} That means the order is reversed comparing to the secondary rainbow, that is, that same as the primary rainbow.\\
+\indent It is much boarder than the primary bow\cite{Atoptics}.
+\newpage
+\end{spacing}
+\begin{spacing}{2.0}
+\begin{thebibliography}{0}
+\bibitem[1]{Atoptics}
+L. Cowley. Atmospheric optics. http://www.atoptics.co.uk, 2015. Web. Accessed July 25th, 2015.
+\bibitem[2]{Calculus}
+J. Stewart. \emph{Calculus}. Higher Education Press, 5 edition, 2003.
+\end{thebibliography}
+\end{spacing}
+\end{document}
